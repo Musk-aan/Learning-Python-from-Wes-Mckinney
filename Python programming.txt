@@ -1,0 +1,56 @@
+Python programming
+It was built on C programming language. Python helps in data manipulation, processing, cleaning, and crunching. It also allows building data applications. It is easily integrated with C, C++ and FORTRAN code. It is very useful for building analytical applications and general-purpose systems.
+
+Data:- structured data, 
+1. Tabular or spreadsheet-like data in which each column may be of different data type(string, numeric, date, etc.,). This includes most common data stored in relational databases etc,.
+
+2. Multidimensional arrays(matrices).
+
+3. Multiple tables of data connected/inter-related by key columns(could be foreign or primary key).
+
+4. Evenly or unevenly separated time series.
+
+Large percentage of data can be converted into a structured form that is more suitable for analysis and modelling. If not, we may extract features from a dataset into a structured form. Example data from music app for how much particular song is listened to.
+
+
+Why python for data analysis?
+First appearance in 1991. Python is a scripting language, an interpreter(translates and executes the program line by line). It has specific runtime environment. Scripting languages can be used to write small programs quickly. 
+
+It Solves "Two Language" Problem. In many organizations, common research, prototype, and test new ideas are done using a more specialized computing language like SAS or R and then later port those ideas to be a part of a larger production systems like c, c++ et. Python is suitable for both doing research and also for building the production systems. Getting the most of python in many cases will require programming in a low-level language like C or C++ and creating python bindings to that code. JUST IN TIME compiler technology allows the former issue thus preventing us to leave python. 
+
+Why not Python? (Disadvantages)
+
+1. Since it is an interpreted language, it will run slower than code written in compiled languages like C++ or Java. As programmers time is more important than CPU time, many are happy to make this trade-off. But for applications requiring large amount of data will make it slow.
+
+2. It has a global interpreter lock, a mechanism that prevents it from executing more than one Python instruction at a time. This doesn't enable python to properly execute a multi-threaded, parallel code.
+
+The python interpreter:- 
+interpreted language. One statement at a time. Python interpreter is invoked by writing *python* in command line. 
+>>> is the prompt after which we will type code expressions. To exit interpreter use either exit or ctrl-Z. To run a python file in command line--> python file_name.py
+
+IPython skipped--
+
+Jupyter Notebook:-
+Interactive document for code, text, data visualizations and other outputs. It interacts with kernel 
+
+Features of python
+// floor method.
+for string double quotes are favoured. For multi-lines quote we can use triple quotes ''' or """, the line breaks after the text and counts the following. Python strings are immutable. To convert different object to string use str(object). 
+
+
+The variables refer to same value in python. a = [1,2,3] and b = a, then both a and b are pointing to same object.
+
+\ backlash is an escape character. It is  used with special characters like newline \n or Unicode characters. To write a string literal with backslashes, you need to escape them:
+
+In [72]: s = "12\\34"
+
+In [73]: print(s)
+12\34
+
+if want to avoid writing double \\ to write single \ in the string then we can use "r" before the string. Example:- r"hey\ima\fnjf". The r stands for raw.  
+To convert the string to its utf code use-> val_name.decode("utf-8")
+
+For type casting use to_convert_data_type(val_with_diff_data_type). For example int(2.333)
+
+
+
